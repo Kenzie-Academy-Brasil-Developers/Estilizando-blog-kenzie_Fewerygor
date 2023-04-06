@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.819);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 900;   
+}
+
+.article-container {
+    display: flex;
+    gap: 30px;
+    padding: 0 10px;
+}
+
+.article-container article {
+    border: hidden;
+}
+
+article:hover{
+    opacity: 0.9;
+    border: ridge;
+    border-radius: 3px;
+}
+
+.article-container h2{
+    color: rgb(255, 179, 0);
+    font-weight: bolder;
+}
+
+.article-container p {
+    margin: 20px auto;
+    text-align: justify;
+}
+
+a:hover {
+    color: purple;
+}
+
+.form-container {
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 10px;
+}
+
+.form-container form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container h3{
+    font-weight: bold;
+    color: rgb(255, 179, 0);
+}
+
+.form-container p {
+    margin: 15px 0 15px 0;  
+}
+
+.form-container input {
+    width: 200px;
+    border: none;
+    border-bottom: 1px ridge;
+    opacity: 0.8;
+    background-color: transparent;
+}
+
+.form-container button {
+    width: 200px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 179, 0);
+    color: white;
+    font-size: 20px;
+}
+
+.form-container input:focus {
+    color:rgba(255, 255, 255, 0.827);
+}
+
+button:hover {
+    opacity: 0.5;
+}
